@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom"
 import './App.css';
 import Login from './Login';
 import Products from './Products';
@@ -17,13 +16,14 @@ function App() {
         <Link to="/description/:id"> PRODUCT DESCRIPTION </Link>
       </nav> */}
       <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products/:id" element={<Product />} />
         <Route path="/newproduct" element={<AddProduct />} />
        
       </Routes>
     </Router>
+    
     </div>
   );
 }

@@ -33,8 +33,8 @@ const Product = () => {
         <p>{product.price} ksh</p>
       </div>
 
-      <Link to="/">
-        <button>LOGOUT</button>
+      <Link to="/Products">
+        <button>BACK</button>
       </Link>
     </>
   );

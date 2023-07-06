@@ -18,7 +18,7 @@ margin-top: 20px;
   }
   
   table {
-    width: 300%;
+    width: 150%;
     border-collapse: collapse;
     margin-bottom: 20px;
   }
@@ -72,4 +72,8 @@ margin-top: 20px;
   
   .btn2 {
     margin-left: 10px;
+  }
+  .add{
+    margin-left: -200px;
+    margin-top: 600px;
   }

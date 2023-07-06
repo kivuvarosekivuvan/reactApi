@@ -1,0 +1,27 @@
+.form{
+    margin-top: 10%;
+    margin-left: 35%;
+}
+.form >input{
+    padding: 20px 80px;
+    border: solid 3px gray;
+    border-radius: 10px;
+}
+.form >button{
+   padding: 15px; 
+   border-radius: 5px;
+   margin-left: 15%;
+   border: none;
+   background-color: rgb(125, 231, 231);
+}
+.form >button:hover{
+    
+    background-color: rgb(5, 80, 80);
+    cursor: pointer;
+    color: white;
+ }
+
+.form h1{
+margin-left:5% ;
+font-size: 40px;
+}
